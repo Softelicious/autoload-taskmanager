@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "name": "taskmanager",
+    "description": "description",
+    "psr-4": {
+      "App\\": "src"
+    }
+  }
+}
+
