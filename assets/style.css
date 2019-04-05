@@ -1,0 +1,48 @@
+.s0::before {
+    content: "○";
+}
+.s1::before {
+    content: "●";
+}
+.delete::before {
+    content: "x";
+}
+.row{
+    float: left;
+    text-decoration: none;
+    text-underline: none;
+    color: black;
+    padding: 15px;
+}
+table{
+    border-collapse: collapse;
+    display: block;
+    width: 100%;
+
+}
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+tbody{
+    display: table;
+    width: 85%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 5px;
+}
+tr{
+    width: 100%;
+
+}
+.create{
+    width: 100%;
+    text-align: center;
+}
+input{
+    width: 85%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
