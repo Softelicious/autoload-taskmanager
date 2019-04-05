@@ -22,19 +22,7 @@ class QueryBuilder
         try {
             $sql = "SELECT * FROM tasks";
             $stmt = $this->pdo->query($sql);
-
-            echo '<table>';
-            foreach ($stmt as $row){
-                echo '
-                <tr>
-                    <td>'.$row['id'].'</td>
-                    <td>'.$row['task'].'</td>
-                    <td>'.$row['status'].'</td>
-                </tr>
-                ';
-            }
-            echo '</table>';
-
+            return $stmt;
         }catch (PDOException $e){
             echo $e;
         }
